@@ -14,6 +14,13 @@
 		21F2E9111A1047220065EA3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F2E9101A1047220065EA3F /* Images.xcassets */; };
 		21F2E9141A1047220065EA3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F2E9121A1047220065EA3F /* LaunchScreen.xib */; };
 		21F2E9201A1047220065EA3F /* TwitterExample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E91F1A1047220065EA3F /* TwitterExample2Tests.m */; };
+		21F2E92A1A10479F0065EA3F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F2E9291A10479F0065EA3F /* Twitter.framework */; };
+		21F2E92C1A1047C00065EA3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F2E92B1A1047C00065EA3F /* UIKit.framework */; };
+		21F2E92E1A1047DB0065EA3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F2E92D1A1047DB0065EA3F /* Foundation.framework */; };
+		21F2E9301A1047E30065EA3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F2E92F1A1047E30065EA3F /* CoreGraphics.framework */; };
+		21F2E9331A10488F0065EA3F /* TwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E9321A10488F0065EA3F /* TwitterController.m */; };
+		21F2E9391A10526C0065EA3F /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E9381A10526C0065EA3F /* TimelineViewController.m */; };
+		21F2E93B1A105CB80065EA3F /* LivLiveWings_AppLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21F2E93A1A105CB80065EA3F /* LivLiveWings_AppLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,15 @@
 		21F2E9191A1047220065EA3F /* TwitterExample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterExample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F2E91E1A1047220065EA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F2E91F1A1047220065EA3F /* TwitterExample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterExample2Tests.m; sourceTree = "<group>"; };
+		21F2E9291A10479F0065EA3F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		21F2E92B1A1047C00065EA3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21F2E92D1A1047DB0065EA3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21F2E92F1A1047E30065EA3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21F2E9311A10488F0065EA3F /* TwitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterController.h; sourceTree = "<group>"; };
+		21F2E9321A10488F0065EA3F /* TwitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterController.m; sourceTree = "<group>"; };
+		21F2E9371A10526C0065EA3F /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		21F2E9381A10526C0065EA3F /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		21F2E93A1A105CB80065EA3F /* LivLiveWings_AppLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LivLiveWings_AppLogo.jpg; path = ../../../../../../../Downloads/LivLiveWings_AppLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F2E9301A1047E30065EA3F /* CoreGraphics.framework in Frameworks */,
+				21F2E92E1A1047DB0065EA3F /* Foundation.framework in Frameworks */,
+				21F2E92C1A1047C00065EA3F /* UIKit.framework in Frameworks */,
+				21F2E92A1A10479F0065EA3F /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,15 @@
 		21F2E8F71A1047220065EA3F = {
 			isa = PBXGroup;
 			children = (
+				21F2E93A1A105CB80065EA3F /* LivLiveWings_AppLogo.jpg */,
+				21F2E9371A10526C0065EA3F /* TimelineViewController.h */,
+				21F2E9381A10526C0065EA3F /* TimelineViewController.m */,
+				21F2E9311A10488F0065EA3F /* TwitterController.h */,
+				21F2E9321A10488F0065EA3F /* TwitterController.m */,
+				21F2E92F1A1047E30065EA3F /* CoreGraphics.framework */,
+				21F2E92D1A1047DB0065EA3F /* Foundation.framework */,
+				21F2E92B1A1047C00065EA3F /* UIKit.framework */,
+				21F2E9291A10479F0065EA3F /* Twitter.framework */,
 				21F2E9021A1047220065EA3F /* TwitterExample2 */,
 				21F2E91C1A1047220065EA3F /* TwitterExample2Tests */,
 				21F2E9011A1047220065EA3F /* Products */,
@@ -202,6 +231,7 @@
 				21F2E90F1A1047220065EA3F /* Main.storyboard in Resources */,
 				21F2E9141A1047220065EA3F /* LaunchScreen.xib in Resources */,
 				21F2E9111A1047220065EA3F /* Images.xcassets in Resources */,
+				21F2E93B1A105CB80065EA3F /* LivLiveWings_AppLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F2E90C1A1047220065EA3F /* ViewController.m in Sources */,
+				21F2E9331A10488F0065EA3F /* TwitterController.m in Sources */,
 				21F2E9091A1047220065EA3F /* AppDelegate.m in Sources */,
 				21F2E9061A1047220065EA3F /* main.m in Sources */,
+				21F2E9391A10526C0065EA3F /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

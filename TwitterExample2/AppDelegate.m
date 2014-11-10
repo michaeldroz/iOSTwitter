@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TwitterController.h"
+#import "TimelineViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [[TwitterController sharedInstance] authorizeAccount];
+    
+    TimelineViewController *viewController = [[TimelineViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [[self window] setRootViewController:navigationController];
+    
     return YES;
 }
 
